@@ -39,8 +39,6 @@ export default {
   </div>
 </template>
 
-<style scoped>
-main {
-  text-align: center;
-}
+<style lang="scss">
+@use 'assets/scss/main' as *;
 </style>
