@@ -8,9 +8,9 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         additionalData: `
-          // @use 'partials/reset' as *;
-          @use 'partials/variables' as *;
-          @use 'partials/mixins' as *;
+          // @use 'src/assets/scss/partials/reset' as *;
+          @use 'src/assets/scss/partials/variables' as *;
+          @use 'src/assets/scss/partials/mixins' as *;
         `
       }
     }
