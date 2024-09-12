@@ -32,7 +32,7 @@ export default {
     <AppHeader />
     
     <main>
-      <button @click="incrementCount()">
+      <button class="btn btn-primary" @click="incrementCount()">
         {{ count }}
       </button>
     </main>
@@ -41,4 +41,6 @@ export default {
 
 <style lang="scss">
 @use 'assets/scss/main' as *;
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
 </style>
